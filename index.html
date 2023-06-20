@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stack Queue UI</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mode__container">
+            <h1 class="text">Mode</h1>
+            <div id="mode__btns__container" class="mode__btns__container">
+                <button data-index="1" id="stack_mode" class="mode">Stack</button>
+                <button data-index="2" id="queue_mode" class="mode">Queue</button>
+            </div>
+
+        </div>
+        <div class="operation__container">
+            <h1 class="text">Operation</h1>
+            <button type="button" id="push_btn" class="btn operation">Push</button>
+            <button type="button" id="pop_btn" class="btn operation">Pop</button>
+        </div>
+        <div class="stackQueue__container">
+            <ul id="stackQueue__box" class="stackQueue__box">
+               
+            </ul>
+        </div>
+        <div id="warning__msg" class="warning__msg"></div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
